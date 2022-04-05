@@ -104,7 +104,7 @@ const jano100 = new Discord.Client();
 
 ///////////////////
 jano.on("ready", () => {
-  var join = jano.channels.get(""); /// id voice
+  var join = jano.channels.get("955906165198422096"); /// id voice
   if (join) join.join();
 });
 ///////////////////
@@ -605,7 +605,7 @@ jano100.on("ready", () => {
 
 jano.on("ready", () => {
   console.log(`Online In Servers`);
-  let statuses = [`JUST ALLAH`];
+  let statuses = [`RAYAN`];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
     jano.user.setActivity(STREAMING, {
@@ -1907,7 +1907,7 @@ jano100.on("ready", () => {
 
 //////////////// tokn lera da bne
 
-jano.login("");
+jano.login("OTYwODkzMDI1ODUxMTc0OTYy.YkxE9g.fwUdeyd6RM6VNDECktwVKTiqHZs");
 jano2.login("");
 jano3.login("");
 jano4.login("");
